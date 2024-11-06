@@ -11,7 +11,7 @@ public class ProductsPage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(linkText = "Pr2222")
+	@FindBy(linkText = "Pr33333")
 	private WebElement ProductsLink;
 	public WebElement getProductsLink()
 	{

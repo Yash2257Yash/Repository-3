@@ -17,7 +17,7 @@ public class ProductsPage {
 	{
 		return ProductsLink;
 	}
-	@FindBy(linkText = "Productsdropdown")
+	@FindBy(linkText = "Producropdown")
 	private WebElement ProductsddLink;
 	
 	public WebElement getProductsddLink()

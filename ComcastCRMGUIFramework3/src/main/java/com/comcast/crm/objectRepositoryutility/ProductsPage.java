@@ -11,11 +11,17 @@ public class ProductsPage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(linkText = "Pro12345")
+	@FindBy(linkText = "Pr")
 	private WebElement ProductsLink;
 	public WebElement getProductsLink()
 	{
 		return ProductsLink;
 	}
+	
+	////code
+	//code
+	
+	
+	//code
 
 }

@@ -24,5 +24,12 @@ public class ProductsPage {
 	{
 		return ProductsddLink;
 	}
+	@FindBy(linkText = "srch")
+	private WebElement ProductsddLink;
+	
+	public WebElement getProductsddLink()
+	{
+		return ProductsddLink;
+	}
 
 }

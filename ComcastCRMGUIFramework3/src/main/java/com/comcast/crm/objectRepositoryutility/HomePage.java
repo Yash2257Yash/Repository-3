@@ -134,8 +134,10 @@ public class HomePage {
 	public void  selectTicketfromDD()
 	{
 	  Select selTicket=new Select(QuickDD);
-	  selTicket.selectByVisibleText("New Ticket");
+	  selTicket.selectByVisibleText("NEW Ticket");
 	}
+	
+	
 	
 
 
